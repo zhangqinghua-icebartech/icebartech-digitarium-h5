@@ -1,0 +1,169 @@
+@charset "UTF-8";
+html[data-v-01658db4] {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 解决IOS默认滑动很卡的情况 */
+}
+
+/* 初始化 */
+body[data-v-01658db4],
+div[data-v-01658db4],
+ul[data-v-01658db4],
+li[data-v-01658db4],
+ol[data-v-01658db4],
+h1[data-v-01658db4],
+h2[data-v-01658db4],
+h3[data-v-01658db4],
+h4[data-v-01658db4],
+h5[data-v-01658db4],
+h6[data-v-01658db4],
+input[data-v-01658db4],
+textarea[data-v-01658db4],
+select[data-v-01658db4],
+p[data-v-01658db4],
+dl[data-v-01658db4],
+dt[data-v-01658db4],
+dd[data-v-01658db4],
+a[data-v-01658db4],
+img[data-v-01658db4],
+button[data-v-01658db4],
+form[data-v-01658db4],
+table[data-v-01658db4],
+th[data-v-01658db4],
+tr[data-v-01658db4],
+td[data-v-01658db4],
+tbody[data-v-01658db4],
+article[data-v-01658db4],
+aside[data-v-01658db4],
+details[data-v-01658db4],
+figcaption[data-v-01658db4],
+figure[data-v-01658db4],
+footer[data-v-01658db4],
+header[data-v-01658db4],
+hgroup[data-v-01658db4],
+menu[data-v-01658db4],
+nav[data-v-01658db4],
+section[data-v-01658db4] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html[data-v-01658db4],
+body[data-v-01658db4] {
+  width: 100%;
+}
+img[data-v-01658db4] {
+  vertical-align: top;
+}
+.ellipsis[data-v-01658db4] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2[data-v-01658db4] {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/** 加载样式 **/
+.loading[data-v-01658db4] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 60vh;
+  background: rgba(0, 0, 0, 0.6);
+  animation-duration: 0.75s;
+  z-index: 99;
+}
+.fade-leave[data-v-01658db4] {
+  opacity: 1;
+}
+.fade-leave-active[data-v-01658db4] {
+  transition: all 0.5s;
+}
+.fade-leave-to[data-v-01658db4] {
+  opacity: 0;
+}
+.feedback[data-v-01658db4] {
+  height: 100vh;
+  padding: 0.8rem 0.426667rem 0 0.426667rem;
+}
+.feedback .label_line[data-v-01658db4] {
+  margin-bottom: 0.266667rem;
+}
+.feedback .label_line span[data-v-01658db4] {
+  position: relative;
+  display: inline-block;
+  font-size: 0.426667rem;
+  font-weight: 500;
+  color: #0f1330;
+  line-height: 0.586667rem;
+  padding-right: 0.346667rem;
+}
+.feedback .label_line span[data-v-01658db4]::after {
+  content: "*";
+  position: absolute;
+  top: 0;
+  right: 0.053333rem;
+  height: 0.586667rem;
+  line-height: 0.693333rem;
+  color: #ff3938;
+}
+.feedback .van-field[data-v-01658db4] {
+  background: #f6f7fb;
+  border-radius: 0.16rem;
+}
+.feedback[data-v-01658db4]  .field-msg {
+  height: 4.266667rem;
+  padding: 0.266667rem 0.266667rem 0.133333rem 0.453333rem;
+  margin-bottom: 0.8rem;
+}
+.feedback[data-v-01658db4]  .field-msg .van-field__word-limit {
+  font-size: 0.373333rem;
+  color: #c5c9d4;
+  line-height: 0.533333rem;
+}
+.feedback[data-v-01658db4]  .field-cont {
+  height: 1.386667rem;
+  padding: 0.426667rem 0.453333rem;
+  margin-bottom: 1.066667rem;
+}
+.feedback[data-v-01658db4]  .field-cont .van-field__control,
+.feedback[data-v-01658db4]  .field-cont .van-field__body {
+  height: 0.533333rem;
+  line-height: 0.533333rem;
+}
+.feedback[data-v-01658db4]  .van-field__body input::-webkit-input-placeholder {
+  font-size: 0.373333rem;
+  color: #c5c9d4;
+  line-height: 0.533333rem;
+}
+.feedback[data-v-01658db4]  .van-field__body input::-moz-input-placeholder {
+  font-size: 0.373333rem;
+  color: #c5c9d4;
+  line-height: 0.533333rem;
+}
+.feedback[data-v-01658db4]  .van-field__body input::-ms-input-placeholder {
+  font-size: 0.373333rem;
+  color: #c5c9d4;
+  line-height: 0.533333rem;
+}
+.feedback .submit[data-v-01658db4] {
+  width: 9.146667rem;
+  height: 1.226667rem;
+  line-height: 1.226667rem;
+  background: #4ad9d7;
+  border-radius: 0.613333rem;
+  text-align: center;
+  font-size: 0.426667rem;
+  font-weight: 500;
+  color: #ffffff;
+}

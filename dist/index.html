@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="icon" href="/herbarium/favicon.ico">
+    <title>[测试]深圳疾控数据标本馆</title>
+	<script>
+		try {
+			var _hmt = _hmt || [];
+			var _hmts = _hmts || [];
+			var _hmtss = _hmtss || [];
+			window._hmt = _hmt;
+			window._hmts = _hmts;
+			window._hmtss = _hmtss;
+			(function() {
+				var hm = document.createElement("script"),
+					hms = document.createElement("script"),
+					hmss = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?bed64e5f5583996cf2a56b3a9e534695";
+				hms.src = "https://hm.baidu.com/hm.js?7bcc4ab4f02912d93845682a3b0c5f6d";
+				hmss.src = "https://hm.baidu.com/hm.js?778fc746fb003d5cc76f8c902013c581";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+				s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hms, s);
+				s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hmss, s);
+			})();
+		} catch (e) {
+			console.log('百度统计', e)
+		}
+	
+	
+
+		(function() {
+			if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+				handleFontSize();
+			} else {
+				document.addEventListener("WeixinJSBridgeReady", handleFontSize, false);
+
+			}
+	
+			function handleFontSize() {
+				// 设置网页字体为默认大小
+				WeixinJSBridge.invoke('setFontSizeCallback', {
+					'fontSize': 0
+				});
+				// 重写设置网页字体大小的事件
+				WeixinJSBridge.on('menu:setfont', function() {
+					WeixinJSBridge.invoke('setFontSizeCallback', {
+						'fontSize': 0
+					});
+				});
+			}
+			
+		})();
+	</script>
+  <link href="/herbarium/css/0.61828f29.css" rel="prefetch"><link href="/herbarium/css/1.b21220a6.css" rel="prefetch"><link href="/herbarium/css/10.eea650f3.css" rel="prefetch"><link href="/herbarium/css/11.10dc2730.css" rel="prefetch"><link href="/herbarium/css/12.e39de08c.css" rel="prefetch"><link href="/herbarium/css/13.45979a19.css" rel="prefetch"><link href="/herbarium/css/14.f9b12cad.css" rel="prefetch"><link href="/herbarium/css/15.025b9f57.css" rel="prefetch"><link href="/herbarium/css/16.964de5da.css" rel="prefetch"><link href="/herbarium/css/17.c89bbedf.css" rel="prefetch"><link href="/herbarium/css/2.7d8e5e36.css" rel="prefetch"><link href="/herbarium/css/3.53b34383.css" rel="prefetch"><link href="/herbarium/css/5.65f3d3fa.css" rel="prefetch"><link href="/herbarium/css/6.85a25620.css" rel="prefetch"><link href="/herbarium/css/7.a16bee14.css" rel="prefetch"><link href="/herbarium/css/8.1f683025.css" rel="prefetch"><link href="/herbarium/css/9.7c7e9100.css" rel="prefetch"><link href="/herbarium/js/0.js" rel="prefetch"><link href="/herbarium/js/1.js" rel="prefetch"><link href="/herbarium/js/10.js" rel="prefetch"><link href="/herbarium/js/11.js" rel="prefetch"><link href="/herbarium/js/12.js" rel="prefetch"><link href="/herbarium/js/13.js" rel="prefetch"><link href="/herbarium/js/14.js" rel="prefetch"><link href="/herbarium/js/15.js" rel="prefetch"><link href="/herbarium/js/16.js" rel="prefetch"><link href="/herbarium/js/17.js" rel="prefetch"><link href="/herbarium/js/2.js" rel="prefetch"><link href="/herbarium/js/3.js" rel="prefetch"><link href="/herbarium/js/4.js" rel="prefetch"><link href="/herbarium/js/5.js" rel="prefetch"><link href="/herbarium/js/6.js" rel="prefetch"><link href="/herbarium/js/7.js" rel="prefetch"><link href="/herbarium/js/8.js" rel="prefetch"><link href="/herbarium/js/9.js" rel="prefetch"><link href="/herbarium/css/index.7a3f8d7b.css" rel="preload" as="style"><link href="/herbarium/js/index.js" rel="preload" as="script"><link href="/herbarium/css/index.7a3f8d7b.css" rel="stylesheet"></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but [测试]深圳疾控数据标本馆 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  <script type="text/javascript" src="/herbarium/js/index.js"></script></body>
+</html>
