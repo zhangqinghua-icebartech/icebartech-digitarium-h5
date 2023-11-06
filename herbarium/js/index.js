@@ -86,7 +86,7 @@
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "css/" + ({}[chunkId]||chunkId) + "." + {"0":"61828f29","1":"b21220a6","2":"7d8e5e36","3":"53b34383","4":"31d6cfe0","5":"65f3d3fa","6":"85a25620","7":"a16bee14","8":"1f683025","9":"7c7e9100","10":"eea650f3","11":"10dc2730","12":"e39de08c","13":"45979a19","14":"f9b12cad","15":"025b9f57","16":"964de5da","17":"c89bbedf"}[chunkId] + ".css";
+/******/ 				var href = "css/" + ({}[chunkId]||chunkId) + "." + {"0":"61828f29","1":"b21220a6","2":"7d8e5e36","3":"53b34383","4":"31d6cfe0","5":"65f3d3fa","6":"85a25620","7":"a16bee14","8":"82424d07","9":"7c7e9100","10":"eea650f3","11":"10dc2730","12":"e39de08c","13":"45979a19","14":"f9b12cad","15":"025b9f57","16":"964de5da","17":"c89bbedf"}[chunkId] + ".css";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
@@ -2533,7 +2533,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _index = __webpack_require__(/*! @/assets/js/storage/index.js */ \"./src/assets/js/storage/index.js\");\n\nlet state = {\n  user: _index.localStorage.getItem(\"user\"),\n  userId: _index.localStorage.getItem(\"userId\"),\n  // token: localStorage.getItem(\"token\"),\n  token: 'LMALNHRDW3PUSQMVSNKXFVXFA7F30R9TXATJEBIX531DCTNCB6',\n  mobilePhone: null,\n  FingerprintId: _index.localStorage.getItem('fingerprintId') || null,\n  // 用户设备ID\n  code: \"\",\n  disTips: _index.localStorage.getItem('disTips') || false,\n  // false 不禁止展示收藏弹窗  true 禁止展示\n  hisRouter: false,\n  // 是否返回历史路由 true 则返回， false 则使用路径跳转\n  hallList: _index.sessionStorage.getItem('hallList') || [],\n  // 一级分类列表\n  randData: _index.sessionStorage.getItem('randData') || [] // 考考你答案\n\n};\nvar _default = state;\nexports.default = _default;\n\n//# sourceURL=webpack:///./src/store/state.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _index = __webpack_require__(/*! @/assets/js/storage/index.js */ \"./src/assets/js/storage/index.js\");\n\nlet state = {\n  user: _index.localStorage.getItem(\"user\"),\n  userId: _index.localStorage.getItem(\"userId\"),\n  token: _index.localStorage.getItem(\"token\"),\n  mobilePhone: null,\n  FingerprintId: _index.localStorage.getItem('fingerprintId') || null,\n  // 用户设备ID\n  code: \"\",\n  disTips: _index.localStorage.getItem('disTips') || false,\n  // false 不禁止展示收藏弹窗  true 禁止展示\n  hisRouter: false,\n  // 是否返回历史路由 true 则返回， false 则使用路径跳转\n  hallList: _index.sessionStorage.getItem('hallList') || [],\n  // 一级分类列表\n  randData: _index.sessionStorage.getItem('randData') || [] // 考考你答案\n\n};\nvar _default = state;\nexports.default = _default;\n\n//# sourceURL=webpack:///./src/store/state.js?");
 
 /***/ }),
 
