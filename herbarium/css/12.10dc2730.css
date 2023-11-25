@@ -1,0 +1,259 @@
+@charset "UTF-8";
+html[data-v-b43efc68] {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 解决IOS默认滑动很卡的情况 */
+}
+
+/* 初始化 */
+body[data-v-b43efc68],
+div[data-v-b43efc68],
+ul[data-v-b43efc68],
+li[data-v-b43efc68],
+ol[data-v-b43efc68],
+h1[data-v-b43efc68],
+h2[data-v-b43efc68],
+h3[data-v-b43efc68],
+h4[data-v-b43efc68],
+h5[data-v-b43efc68],
+h6[data-v-b43efc68],
+input[data-v-b43efc68],
+textarea[data-v-b43efc68],
+select[data-v-b43efc68],
+p[data-v-b43efc68],
+dl[data-v-b43efc68],
+dt[data-v-b43efc68],
+dd[data-v-b43efc68],
+a[data-v-b43efc68],
+img[data-v-b43efc68],
+button[data-v-b43efc68],
+form[data-v-b43efc68],
+table[data-v-b43efc68],
+th[data-v-b43efc68],
+tr[data-v-b43efc68],
+td[data-v-b43efc68],
+tbody[data-v-b43efc68],
+article[data-v-b43efc68],
+aside[data-v-b43efc68],
+details[data-v-b43efc68],
+figcaption[data-v-b43efc68],
+figure[data-v-b43efc68],
+footer[data-v-b43efc68],
+header[data-v-b43efc68],
+hgroup[data-v-b43efc68],
+menu[data-v-b43efc68],
+nav[data-v-b43efc68],
+section[data-v-b43efc68] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html[data-v-b43efc68],
+body[data-v-b43efc68] {
+  width: 100%;
+}
+img[data-v-b43efc68] {
+  vertical-align: top;
+}
+.ellipsis[data-v-b43efc68] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2[data-v-b43efc68] {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/** 加载样式 **/
+.loading[data-v-b43efc68] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 60vh;
+  background: rgba(0, 0, 0, 0.6);
+  animation-duration: 0.75s;
+  z-index: 99;
+}
+.fade-leave[data-v-b43efc68] {
+  opacity: 1;
+}
+.fade-leave-active[data-v-b43efc68] {
+  transition: all 0.5s;
+}
+.fade-leave-to[data-v-b43efc68] {
+  opacity: 0;
+}
+.setUpPage[data-v-b43efc68] {
+  height: 100vh;
+  background: #f1f3f5;
+}
+.max_line[data-v-b43efc68],
+.min_line[data-v-b43efc68] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.6rem;
+  padding: 0 0.533333rem;
+  background: #ffffff;
+  border-bottom: 0.026667rem solid #f1f3f5;
+}
+.max_line[data-v-b43efc68] {
+  height: 2.346667rem;
+}
+.label[data-v-b43efc68] {
+  display: inline-block;
+  width: 2.133333rem;
+  font-size: 0.426667rem;
+  color: #272c27;
+  line-height: 0.586667rem;
+  flex-shrink: 0;
+}
+.arrow[data-v-b43efc68] {
+  width: 0.32rem;
+  height: 0.32rem;
+}
+.user_head[data-v-b43efc68] {
+  width: 1.066667rem;
+  height: 1.066667rem;
+  border-radius: 50%;
+}
+.nickname[data-v-b43efc68] {
+  font-size: 0.426667rem;
+  color: #999999;
+  line-height: 0.586667rem;
+}
+.feedback[data-v-b43efc68] {
+  position: absolute;
+  bottom: 0.666667rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.666667rem;
+  height: 1.333333rem;
+}
+.feedback img[data-v-b43efc68] {
+  width: 0.426667rem;
+  height: 0.426667rem;
+  margin-right: 0.133333rem;
+  margin-bottom: 0.053333rem;
+}
+.feedback span[data-v-b43efc68] {
+  font-size: 0.373333rem;
+  color: #9fa7bc;
+  line-height: 0.533333rem;
+}
+
+/*******性别弹窗样式******************/
+.gender[data-v-b43efc68] {
+  background: #f1f3f5;
+}
+.gender .top_line[data-v-b43efc68],
+.gender .min_line[data-v-b43efc68] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.533333rem;
+  background: #ffffff;
+}
+.gender .top_line[data-v-b43efc68] {
+  height: 1.2rem;
+  margin-bottom: 0.266667rem;
+}
+.gender .top_line .label[data-v-b43efc68] {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.gender .min_line[data-v-b43efc68] {
+  height: 1.6rem;
+  border-bottom: 0.026667rem solid #f1f3f5;
+}
+.gender .min_line img[data-v-b43efc68] {
+  width: 0.426667rem;
+  height: 0.426667rem;
+}
+.gender .label[data-v-b43efc68],
+.gender .submit[data-v-b43efc68] {
+  display: inline-block;
+  width: 2.133333rem;
+  font-size: 0.426667rem;
+  flex-shrink: 0;
+}
+.gender .label[data-v-b43efc68] {
+  color: #272c27;
+  line-height: 0.586667rem;
+}
+.gender .submit[data-v-b43efc68] {
+  height: 1.2rem;
+  color: #51dad8;
+  line-height: 1.2rem;
+  text-align: right;
+}
+
+/*******出生日期弹窗样式******************/
+[data-v-b43efc68] .van-popup {
+  background: none;
+}
+[data-v-b43efc68] .van-popup .van-datetime-picker {
+  background: none;
+}
+[data-v-b43efc68] .van-popup .van-picker__toolbar {
+  height: 1.2rem;
+  background: #f8f8f8;
+  border-radius: 0.266667rem 0.266667rem 0 0;
+}
+[data-v-b43efc68] .van-popup .van-picker__columns {
+  padding: 0 1.733333rem 0 1.76rem;
+  background: #fff;
+}
+[data-v-b43efc68] .van-popup .van-picker__cancel {
+  font-size: 0.426667rem;
+  color: #333333;
+  line-height: 0.586667rem;
+}
+[data-v-b43efc68] .van-popup .van-picker__confirm {
+  font-size: 0.426667rem;
+  color: #4ad9d7;
+  line-height: 0.586667rem;
+}
+[data-v-b43efc68] .van-popup .van-picker__frame {
+  left: 1.76rem;
+  right: 1.733333rem;
+}
+[data-v-b43efc68] .van-popup .van-hairline-unset--top-bottom::after {
+  border-top: 0.026667rem solid #c2c2c2;
+  border-bottom: 0.026667rem solid #c2c2c2;
+}
+
+/*******裁剪弹窗样式******************/
+.cropper_wrap[data-v-b43efc68] {
+  width: 100%;
+  height: 100vh;
+}
+.cropper_wrap .cropper[data-v-b43efc68] {
+  height: 100vh;
+}
+.cropper_wrap .dialog-footer[data-v-b43efc68] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10vh;
+  min-height: 1.066667rem;
+}
+.cropper_wrap .dialog-footer .van-button[data-v-b43efc68] {
+  width: 2.666667rem;
+  height: 0.96rem;
+}

@@ -1,0 +1,215 @@
+@charset "UTF-8";
+html[data-v-d916652e] {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 解决IOS默认滑动很卡的情况 */
+}
+
+/* 初始化 */
+body[data-v-d916652e],
+div[data-v-d916652e],
+ul[data-v-d916652e],
+li[data-v-d916652e],
+ol[data-v-d916652e],
+h1[data-v-d916652e],
+h2[data-v-d916652e],
+h3[data-v-d916652e],
+h4[data-v-d916652e],
+h5[data-v-d916652e],
+h6[data-v-d916652e],
+input[data-v-d916652e],
+textarea[data-v-d916652e],
+select[data-v-d916652e],
+p[data-v-d916652e],
+dl[data-v-d916652e],
+dt[data-v-d916652e],
+dd[data-v-d916652e],
+a[data-v-d916652e],
+img[data-v-d916652e],
+button[data-v-d916652e],
+form[data-v-d916652e],
+table[data-v-d916652e],
+th[data-v-d916652e],
+tr[data-v-d916652e],
+td[data-v-d916652e],
+tbody[data-v-d916652e],
+article[data-v-d916652e],
+aside[data-v-d916652e],
+details[data-v-d916652e],
+figcaption[data-v-d916652e],
+figure[data-v-d916652e],
+footer[data-v-d916652e],
+header[data-v-d916652e],
+hgroup[data-v-d916652e],
+menu[data-v-d916652e],
+nav[data-v-d916652e],
+section[data-v-d916652e] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html[data-v-d916652e],
+body[data-v-d916652e] {
+  width: 100%;
+}
+img[data-v-d916652e] {
+  vertical-align: top;
+}
+.ellipsis[data-v-d916652e] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2[data-v-d916652e] {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/** 加载样式 **/
+.loading[data-v-d916652e] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 60vh;
+  background: rgba(0, 0, 0, 0.6);
+  animation-duration: 0.75s;
+  z-index: 99;
+}
+.fade-leave[data-v-d916652e] {
+  opacity: 1;
+}
+.fade-leave-active[data-v-d916652e] {
+  transition: all 0.5s;
+}
+.fade-leave-to[data-v-d916652e] {
+  opacity: 0;
+}
+.returnBtn[data-v-d916652e] {
+  position: absolute;
+  right: 0.426667rem;
+  bottom: 3.2rem;
+  width: 1.066667rem;
+  height: 1.066667rem;
+  border-radius: 50%;
+  background: rgba(26, 39, 45, 0.7);
+  font-size: 0.373333rem;
+  color: #ffffff;
+  line-height: 1.066667rem;
+  text-align: center;
+  z-index: 10;
+}
+@charset "UTF-8";
+html[data-v-d81a38a2] {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 解决IOS默认滑动很卡的情况 */
+}
+
+/* 初始化 */
+body[data-v-d81a38a2],
+div[data-v-d81a38a2],
+ul[data-v-d81a38a2],
+li[data-v-d81a38a2],
+ol[data-v-d81a38a2],
+h1[data-v-d81a38a2],
+h2[data-v-d81a38a2],
+h3[data-v-d81a38a2],
+h4[data-v-d81a38a2],
+h5[data-v-d81a38a2],
+h6[data-v-d81a38a2],
+input[data-v-d81a38a2],
+textarea[data-v-d81a38a2],
+select[data-v-d81a38a2],
+p[data-v-d81a38a2],
+dl[data-v-d81a38a2],
+dt[data-v-d81a38a2],
+dd[data-v-d81a38a2],
+a[data-v-d81a38a2],
+img[data-v-d81a38a2],
+button[data-v-d81a38a2],
+form[data-v-d81a38a2],
+table[data-v-d81a38a2],
+th[data-v-d81a38a2],
+tr[data-v-d81a38a2],
+td[data-v-d81a38a2],
+tbody[data-v-d81a38a2],
+article[data-v-d81a38a2],
+aside[data-v-d81a38a2],
+details[data-v-d81a38a2],
+figcaption[data-v-d81a38a2],
+figure[data-v-d81a38a2],
+footer[data-v-d81a38a2],
+header[data-v-d81a38a2],
+hgroup[data-v-d81a38a2],
+menu[data-v-d81a38a2],
+nav[data-v-d81a38a2],
+section[data-v-d81a38a2] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html[data-v-d81a38a2],
+body[data-v-d81a38a2] {
+  width: 100%;
+}
+img[data-v-d81a38a2] {
+  vertical-align: top;
+}
+.ellipsis[data-v-d81a38a2] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2[data-v-d81a38a2] {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/** 加载样式 **/
+.loading[data-v-d81a38a2] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 60vh;
+  background: rgba(0, 0, 0, 0.6);
+  animation-duration: 0.75s;
+  z-index: 99;
+}
+.fade-leave[data-v-d81a38a2] {
+  opacity: 1;
+}
+.fade-leave-active[data-v-d81a38a2] {
+  transition: all 0.5s;
+}
+.fade-leave-to[data-v-d81a38a2] {
+  opacity: 0;
+}
+.goHome[data-v-d81a38a2] {
+  position: absolute;
+  right: 0.48rem;
+  bottom: 3.226667rem;
+  width: 2.08rem;
+  height: 1.466667rem;
+  z-index: 10;
+}
+.goHome img[data-v-d81a38a2] {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}

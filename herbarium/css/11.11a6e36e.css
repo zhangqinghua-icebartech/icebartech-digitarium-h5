@@ -1,0 +1,201 @@
+@charset "UTF-8";
+html[data-v-4b6fb809] {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /* 解决IOS默认滑动很卡的情况 */
+}
+
+/* 初始化 */
+body[data-v-4b6fb809],
+div[data-v-4b6fb809],
+ul[data-v-4b6fb809],
+li[data-v-4b6fb809],
+ol[data-v-4b6fb809],
+h1[data-v-4b6fb809],
+h2[data-v-4b6fb809],
+h3[data-v-4b6fb809],
+h4[data-v-4b6fb809],
+h5[data-v-4b6fb809],
+h6[data-v-4b6fb809],
+input[data-v-4b6fb809],
+textarea[data-v-4b6fb809],
+select[data-v-4b6fb809],
+p[data-v-4b6fb809],
+dl[data-v-4b6fb809],
+dt[data-v-4b6fb809],
+dd[data-v-4b6fb809],
+a[data-v-4b6fb809],
+img[data-v-4b6fb809],
+button[data-v-4b6fb809],
+form[data-v-4b6fb809],
+table[data-v-4b6fb809],
+th[data-v-4b6fb809],
+tr[data-v-4b6fb809],
+td[data-v-4b6fb809],
+tbody[data-v-4b6fb809],
+article[data-v-4b6fb809],
+aside[data-v-4b6fb809],
+details[data-v-4b6fb809],
+figcaption[data-v-4b6fb809],
+figure[data-v-4b6fb809],
+footer[data-v-4b6fb809],
+header[data-v-4b6fb809],
+hgroup[data-v-4b6fb809],
+menu[data-v-4b6fb809],
+nav[data-v-4b6fb809],
+section[data-v-4b6fb809] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html[data-v-4b6fb809],
+body[data-v-4b6fb809] {
+  width: 100%;
+}
+img[data-v-4b6fb809] {
+  vertical-align: top;
+}
+.ellipsis[data-v-4b6fb809] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2[data-v-4b6fb809] {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/** 加载样式 **/
+.loading[data-v-4b6fb809] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  line-height: 60vh;
+  background: rgba(0, 0, 0, 0.6);
+  animation-duration: 0.75s;
+  z-index: 99;
+}
+.fade-leave[data-v-4b6fb809] {
+  opacity: 1;
+}
+.fade-leave-active[data-v-4b6fb809] {
+  transition: all 0.5s;
+}
+.fade-leave-to[data-v-4b6fb809] {
+  opacity: 0;
+}
+.searchPage[data-v-4b6fb809] {
+  padding: 1.6rem 0.453333rem 0 0.453333rem;
+}
+.searchPage .search_wrap[data-v-4b6fb809] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.4rem 0.453333rem;
+  background: #FFF;
+  z-index: 1;
+}
+.searchPage .search_line[data-v-4b6fb809] {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 0.96rem;
+  border-radius: 0.48rem;
+  border: 0.026667rem solid #4ad9d7;
+  overflow: hidden;
+}
+.searchPage .search_line .leftIcon[data-v-4b6fb809] {
+  height: 0.96rem;
+  padding: 0.213333rem 0.32rem 0 0.346667rem;
+}
+.searchPage .search_line .leftIcon img[data-v-4b6fb809] {
+  width: 0.506667rem;
+  height: 0.506667rem;
+}
+.searchPage .search_line[data-v-4b6fb809]  .van-search {
+  flex: 1;
+  padding-top: 0.053333rem;
+}
+.searchPage .search_line[data-v-4b6fb809]  .van-search .van-search__content {
+  background: none;
+}
+.searchPage .search_line[data-v-4b6fb809]  .van-search input::-webkit-input-placeholder {
+  /*WebKit browsers*/
+  color: #9c9c9c;
+}
+.searchPage .search_line[data-v-4b6fb809]  .van-search input::-moz-input-placeholder {
+  /*Mozilla Firefox*/
+  color: #9c9c9c;
+}
+.searchPage .search_line[data-v-4b6fb809]  .van-search input::-ms-input-placeholder {
+  /*Internet Explorer*/
+  color: #9c9c9c;
+}
+.searchPage .search_line .rightIcon[data-v-4b6fb809] {
+  height: 0.96rem;
+  padding: 0.24rem 0.586667rem 0 0.266667rem;
+}
+.searchPage .search_line .rightIcon img[data-v-4b6fb809] {
+  width: 0.373333rem;
+  height: 0.373333rem;
+}
+.searchPage .search_list[data-v-4b6fb809] {
+  width: 100%;
+  min-height: 100vh;
+}
+.searchPage .search_list[data-v-4b6fb809]::-webkit-scrollbar {
+  display: none;
+}
+.searchPage .sl_li[data-v-4b6fb809] {
+  display: flex;
+  height: 1.28rem;
+  padding: 0.32rem 0;
+}
+.searchPage .sl_con[data-v-4b6fb809] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.searchPage .sl_con .sl_name[data-v-4b6fb809] {
+  width: 6.4rem;
+  height: 0.533333rem;
+  font-size: 0.373333rem;
+  color: #121212;
+  line-height: 0.533333rem;
+}
+.searchPage .sl_con .sl_type[data-v-4b6fb809] {
+  width: 1.786667rem;
+  height: 0.533333rem;
+  background: #f1f3f5;
+  border-radius: 0.106667rem 0 0.106667rem 0;
+  font-size: 0.293333rem;
+  color: #a3a4a5;
+  line-height: 0.533333rem;
+  text-align: center;
+}
+.searchPage .sl_arrow[data-v-4b6fb809] {
+  height: 0.533333rem;
+  padding: 0.106667rem 0.24rem 0.053333rem;
+}
+.searchPage .sl_arrow img[data-v-4b6fb809] {
+  width: 0.373333rem;
+  height: 0.373333rem;
+}
+.searchPage .sl_null[data-v-4b6fb809] {
+  padding-top: 2.666667rem;
+  text-align: center;
+}
+.searchPage .sl_null img[data-v-4b6fb809] {
+  width: 3.013333rem;
+  height: 4.453333rem;
+}
